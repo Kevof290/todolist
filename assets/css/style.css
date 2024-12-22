@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body {
+    background-color: #213555;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin: 3rem 0 0;
+    font-family: 'Dancing Script', 'Roboto', sans-serif;
+    background-color: #D8C4B6;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 50px;
+}
+
+input {
+    font-size: 25px;
+    margin-bottom: 1rem ;
+}
+
+.contadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.id {
+    margin: 0 1rem;
+}
+
+#plus {
+    font-size: 25px;
+    margin: 0 1rem;
+    color: #007e00;
+}
+
+#plus:hover {
+    cursor: pointer;
+}
+
+#borrar {
+    color: #ff0000;
+    margin: 0 .5rem;
+}
+
+#borrar:hover {
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration:line-through;
+    text-decoration-color: #007e00;
+}
+
+.contenido {
+    display: flex;
+    margin: .5rem;
+    font-size: 25px;
+}
+
+#seleccion:hover {
+    cursor: grab;
+}
+
+.total {
+    margin: 1rem;
+}
+
+.realizado {
+    margin: 1rem;
+}
+
+.contadores span {
+    margin: 1rem 0;
+}
+
+.info p {
+    font-size: 25px;
+}
